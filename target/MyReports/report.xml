@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="35.758">
+    <testcase classname="Swag web automation" name="Login swag web" time="16.77">
+        <system-out><![CDATA[Given I have URL for swag website...........................................passed
+When I enter user as "locked_out_user" and pass as "secret_sauce"...........passed
+And I click on logged in....................................................passed
+Then User will get loggin...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Verify AQM Mail" name="Verify Login Functionality" time="18.206">
+        <system-out><![CDATA[Given I have URL of AQM mail................................................passed
+When I enter the username as "amol.sule" and password as "xyz123"...........passed
+And I Click on login button.................................................passed
+Then I get logged in........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
